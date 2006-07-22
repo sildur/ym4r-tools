@@ -5,7 +5,7 @@ require 'rake/gempackagetask'
 
 desc "Generate the documentation"
 Rake::RDocTask::new do |rdoc|
-  rdoc.rdoc_dir = 'ym4r-tools-doc/'
+  rdoc.rdoc_dir = 'ym4r_tools-doc/'
   rdoc.title    = "YM4R Tools Documentation"
   rdoc.options << '--line-numbers' << '--inline-source'
   rdoc.rdoc_files.include('README')
